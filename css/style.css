@@ -1,0 +1,227 @@
+/* Common Style */
+body {
+    padding:0px;
+    margin:0px;
+    max-width:100%;
+}
+p {
+    color:#333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    line-height:30px;
+    /* display: flex;
+    flex-flow:column wrap; */
+    padding-bottom:20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display:block;
+}
+
+
+
+
+.container {
+    margin: 0 auto;
+    padding:50px 15px;
+    width: 80%;
+}
+
+
+
+.content-box {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+}
+
+.button-classic {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 12px 40px;
+    background: linear-gradient(45deg,#FF0005,#FF5959);
+    font-size:16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top:18px !important;
+    text-transform: uppercase;
+}
+
+
+
+.txt-center {
+    text-align: center;
+}
+
+
+.title {
+    color:#333333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.bd-text {
+    color: #FF0005;
+    font-weight: 700;
+}
+
+.bd-text-small {
+    color: #ef8688;
+    font-weight: 400;
+
+}
+/* Common Style */
+
+/* Header CSS */
+.header-boxes {
+    width: 50%;
+    padding: 15px;
+}
+
+.header-boxes .title {
+    font-size:64px;
+    border-left: 4px solid;
+    border-image: linear-gradient(45deg , tomato,orange);
+    border-image-slice: 1;
+    padding-left: 25px;
+    line-height: 85px;
+    letter-spacing: -1px;
+
+    
+}
+
+.header-boxes img {
+    width: 100%;  
+}
+
+.small-text {
+    padding-top: 20px;
+    color: #333333;
+}
+
+/* Header CSS */
+
+
+
+/* About Style */
+.about-boxes {
+    width:25%;
+    height: 300px;
+    margin-top:60px;
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: 0.3s;
+}
+
+.about-boxes:hover {
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+}
+
+.about-boxes .title {
+    color:#ef8688 !important;
+}
+
+.about-title {
+    font-size:44px;
+    text-transform: uppercase;
+    
+}
+
+.about-boxes img {
+    max-width: 100%;
+}
+
+
+
+#box-1, #box-3 {
+    background-color: rgba(79,157,166,10%);
+}
+
+#box-2 {
+    background-color: rgba(255,244,214,100%);
+}
+
+
+
+/* About Style */
+
+/* Discover Section */
+.discover {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .title {
+    font-size:36px;
+    line-height: 44px;
+    
+}
+
+.discover img {
+    width:100%;
+}
+
+.discover-small {
+    width:45%;
+}
+
+.discover-large-left {
+    width:55%;
+    padding-right:7%;
+}
+
+.discover-large-right {
+    width:55%;
+    padding-left:7%;
+}
+
+
+
+/* Discover Section */
+
+/* App Style  */
+.app-boxes {
+    width:50%;
+    padding-left:5%;
+
+}
+
+.app-boxes .title {
+    font-size:36px;
+    line-height: 44px;
+}
+
+
+.title.app {
+    font-size:44px;
+    text-transform: uppercase;
+    margin-top:100px
+
+}
+
+
+/* App Style  */
+
+/* FOOTER */
+footer {
+    background-color: #000000;
+    padding:30px;
+    margin: 0px;
+    color:#ffffff;
+}
+
+.footer p, .footer .title {
+    color:#ffffff;
+}
+
+.footer-description {
+    text-align: center;
+    font-weight: 300;
+}
